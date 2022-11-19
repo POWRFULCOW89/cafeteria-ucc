@@ -1,0 +1,35 @@
+Ordenes
+ID,Número de mesa,Clientes,Orden,Estado,Hora inicio,Hora fin,Subtotal,Total,Comentario,Empleado
+1,1,1,1,Finalizado,1668380260790,null,24.00,27.84,P/Llevar,1
+2,2,2,1|1|3|3,Finalizado,1668379576238,1668380337229,72.00,83.52,null,1
+3,1,1,4,Proceso,1668380268150,null,47.00,54.52,P/Llevar,1
+4,1,1,5|6,Cancelado,1668380130070,1668380132438,39.00,45.24,null,1
+5,1,1,6,Cancelado,1668380140310,1668380352342,24.00,27.84,null,1
+6,4,1,2,Finalizado,1668380283110,null,36.00,41.76,Sin chile,1
+7,5,2,10|9|9|10,Proceso,1668380177926,null,120.00,139.20,null,1
+8,2,1,3,Proceso,1668380292110,null,12.00,13.92,Sin etiqueta,1
+9,3,2,6|2,Cancelado,1668380200541,1668380347646,60.00,69.60,null,1
+10,1,1,1|2|2|1|6|3|4,Finalizado,1668380250541,1668380351357,203.00,235.48,Dos cuentas,1
+
+Productos
+ID,Nombre,Precio,Stock
+1,Sándwich,24.00,4
+2,Cuernito de jamón,36.00,2
+3,Agua embotellada,12.00,29
+4,Bombones de chocolate,47.00,2
+5,Cheetos,15.00,13
+6,Batido de fruta,24.00,7
+7,Hielitos de agua,12.00,30
+8,HIelitos de leche,16.00,18
+9,Powerade,24.00,5
+10,Spaghetti,36.00,12
+
+Usuarios
+ID,Nombre,Apellidos,Rol,Fecha de inicio,RFC,Usuario,Hash
+1,Diego,Domínguez Melo,Administrador,1660501093105,DOMD10,diego,AOSKgVUlUpup0z+HYaFnWI/gDEe8gvUVz3kcSC7Znsw=
+2,Juan José,Baza,Usuario,1666501093105,BAZJ89,juan,7QjCkNfiL3uzJLFcutzjWws0hWT9LV+VdSOI2G1xvMo=
+3,Pedro,Díaz,Administrador,1668367452336,PD2020,peter,q1EATp1xpIXxYPZV+55yvN749cpBeLJpOLSUcUVv0Rw=
+4,Miguel,Hernández,Usuario,1668381198862,MH2022,mike,ZLTQ9HyTziPRV+aKWHZzVig9ybY8RZ1F0ODjmzpkubk=
+5,Administrador,UCC,Administrador,1668384108494,---,admin,jGl25bVBBBW96Qi9Te4V37Fnqchz/Eu4qB9vKrRIqRg=
+6,Usuario,Prueba,Usuario,1668393872113,UP2020UCC,usuario,klDiIsTHHwxY1MVLUKiAoxLp+f7VXVw6oLDoYN7ZkWU=
+
